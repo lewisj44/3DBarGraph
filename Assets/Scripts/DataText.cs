@@ -19,6 +19,7 @@ public class DataText : MonoBehaviour
         textPosition = Vector3.zero;
         dataText = GetComponentInChildren<TextMesh>();
         mainCamera = Camera.main;
+
     }
 
     void Update()
