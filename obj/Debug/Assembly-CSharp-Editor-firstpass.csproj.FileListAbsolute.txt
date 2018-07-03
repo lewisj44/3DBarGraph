@@ -1,0 +1,618 @@
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Assembly-CSharp-Editor-firstpass.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Assembly-CSharp-Editor-firstpass.pdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Boo.Lang.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Facebook.Unity.Settings.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/mscorlib.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/nunit.framework.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/SyntaxTree.VisualStudio.Unity.Bridge.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/System.Core.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/System.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/System.Runtime.Serialization.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/System.Xml.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/System.Xml.Linq.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Unity.Locator.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Unity.PackageManagerUI.Editor.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.Advertisements.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.Analytics.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.Android.Extensions.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.Facebook.Extensions.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.GoogleAudioSpatializer.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.Graphs.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.HoloLens.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.iOS.Extensions.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.Networking.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.OSXStandalone.Extensions.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.Purchasing.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.SpatialTracking.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.StandardEvents.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.TestRunner.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.Timeline.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.TreeEditor.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.UI.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.UIAutomation.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.VR.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.WebGL.Extensions.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.WindowsStandalone.Extensions.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.AccessibilityModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.AIModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.AnimationModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ARModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.AssetBundleModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.AudioModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.BaselibModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ClothModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.CloudWebServicesModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ClusterInputModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ClusterRendererModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.CoreModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.CrashReportingModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.DirectorModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.FacebookModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.GameCenterModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.GoogleAudioSpatializer.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.GridModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.HotReloadModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ImageConversionModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.IMGUIModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.InputModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.JSONSerializeModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ParticlesLegacyModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ParticleSystemModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.PerformanceReportingModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.Physics2DModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.PhysicsModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.Purchasing.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ScreenCaptureModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.SharedInternalsModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.SpatialTracking.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.SpatialTrackingModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.SpriteMaskModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.SpriteShapeModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.StandardEvents.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.StyleSheetsModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.SubstanceModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TerrainModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TerrainPhysicsModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TestRunner.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TextRenderingModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TilemapModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.Timeline.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TimelineModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TLSModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UIAutomation.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UIElementsModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UIModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UmbraModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UNETModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityAnalyticsModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityConnectModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityWebRequestAssetBundleModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityWebRequestAudioModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityWebRequestModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityWebRequestTextureModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityWebRequestWWWModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.VehiclesModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.VideoModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.VRModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.WebModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.WindModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.XRModule.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityScript.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityScript.Lang.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Vuforia.UnityExtensions.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Vuforia.UnityExtensions.Editor.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Unity.Cecil.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Unity.DataContract.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/ExCSS.Unity.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Unity.Legacy.NRefactory.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Boo.Lang.Parser.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Boo.Lang.Compiler.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Unity.IvyParser.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Unity.Cecil.Mdb.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/SyntaxTree.VisualStudio.Unity.Messaging.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/System.Configuration.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Boo.Lang.PatternMatching.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Boo.Lang.Useful.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Unity.Cecil.Pdb.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Assembly-CSharp-firstpass.pdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.StandardEvents.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Unity.PackageManagerUI.Editor.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.AIModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.AIModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ARModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ARModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.AccessibilityModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.AccessibilityModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.AnimationModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.AnimationModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.AssetBundleModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.AssetBundleModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.AudioModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.AudioModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.BaselibModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.BaselibModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ClothModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ClothModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.CloudWebServicesModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.CloudWebServicesModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ClusterInputModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ClusterInputModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ClusterRendererModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ClusterRendererModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.CoreModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.CoreModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.CrashReportingModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.CrashReportingModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.DirectorModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.DirectorModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.FacebookModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.FacebookModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.GameCenterModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.GameCenterModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.GridModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.GridModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.HotReloadModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.HotReloadModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.IMGUIModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.IMGUIModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ImageConversionModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ImageConversionModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.InputModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.InputModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.JSONSerializeModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.JSONSerializeModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ParticleSystemModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ParticleSystemModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ParticlesLegacyModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ParticlesLegacyModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.PerformanceReportingModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.PerformanceReportingModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.PhysicsModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.PhysicsModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.Physics2DModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.Physics2DModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ScreenCaptureModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.ScreenCaptureModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.SharedInternalsModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.SharedInternalsModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.SpatialTrackingModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.SpatialTrackingModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.SpriteMaskModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.SpriteMaskModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.SpriteShapeModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.SpriteShapeModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.StyleSheetsModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.StyleSheetsModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.SubstanceModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.SubstanceModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TLSModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TLSModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TerrainModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TerrainModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TerrainPhysicsModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TerrainPhysicsModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TextRenderingModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TextRenderingModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TilemapModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TilemapModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TimelineModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TimelineModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UIModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UIModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UIElementsModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UIElementsModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UNETModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UNETModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UmbraModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UmbraModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityAnalyticsModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityAnalyticsModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityConnectModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityConnectModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityWebRequestModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityWebRequestModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityWebRequestAssetBundleModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityWebRequestAssetBundleModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityWebRequestAudioModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityWebRequestAudioModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityWebRequestTextureModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityWebRequestTextureModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityWebRequestWWWModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UnityWebRequestWWWModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.VRModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.VRModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.VehiclesModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.VehiclesModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.VideoModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.VideoModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.WebModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.WebModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.WindModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.WindModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.XRModule.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.XRModule.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Unity.Locator.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UIAutomation.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UIAutomation.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.UIAutomation.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.UIAutomation.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.TestRunner.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.TestRunner.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TestRunner.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.TestRunner.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/nunit.framework.pdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/nunit.framework.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.Networking.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.Networking.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.Networking.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.Networking.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UI.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.UI.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.UI.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.UI.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.Timeline.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.Timeline.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.Timeline.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.Timeline.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.TreeEditor.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.TreeEditor.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.GoogleAudioSpatializer.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.GoogleAudioSpatializer.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.GoogleAudioSpatializer.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.GoogleAudioSpatializer.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.HoloLens.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.HoloLens.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.HoloLens.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.HoloLens.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.SpatialTracking.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.SpatialTracking.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.SpatialTracking.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.SpatialTracking.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.VR.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.VR.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Vuforia.UnityExtensions.Editor.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Vuforia.UnityExtensions.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.Graphs.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.iOS.Extensions.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.WebGL.Extensions.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.WindowsStandalone.Extensions.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.OSXStandalone.Extensions.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.Facebook.Extensions.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.Advertisements.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.Analytics.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.Analytics.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.Purchasing.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.Purchasing.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEngine.StandardEvents.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/Unity.IvyParser.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.xml
+/Users/jordan/Unity Projects/New Unity Project (2)/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll.mdb
+/Users/jordan/Unity Projects/New Unity Project (2)/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojResolveAssemblyReference.cache
+/Users/jordan/Unity Projects/New Unity Project (2)/obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+/Users/jordan/Unity Projects/New Unity Project (2)/obj/Debug/Assembly-CSharp-Editor-firstpass.dll
+/Users/jordan/Unity Projects/New Unity Project (2)/obj/Debug/Assembly-CSharp-Editor-firstpass.pdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Assembly-CSharp-Editor-firstpass.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Assembly-CSharp-Editor-firstpass.pdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Boo.Lang.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Facebook.Unity.Settings.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/mscorlib.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/nunit.framework.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/SyntaxTree.VisualStudio.Unity.Bridge.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/System.Core.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/System.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/System.Runtime.Serialization.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/System.Xml.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/System.Xml.Linq.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.Locator.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.PackageManagerUI.Editor.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.Advertisements.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.Analytics.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.Android.Extensions.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.Facebook.Extensions.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.GoogleAudioSpatializer.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.Graphs.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.HoloLens.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.iOS.Extensions.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.Networking.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.OSXStandalone.Extensions.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.Purchasing.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.SpatialTracking.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.StandardEvents.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.TestRunner.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.Timeline.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.TreeEditor.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.UI.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.UIAutomation.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.VR.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.WebGL.Extensions.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.WindowsStandalone.Extensions.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.AccessibilityModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.AIModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.AnimationModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ARModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.AssetBundleModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.AudioModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.BaselibModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ClothModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.CloudWebServicesModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ClusterInputModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ClusterRendererModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.CoreModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.CrashReportingModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.DirectorModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.FacebookModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.GameCenterModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.GoogleAudioSpatializer.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.GridModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.HotReloadModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ImageConversionModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.IMGUIModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.InputModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.JSONSerializeModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ParticlesLegacyModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ParticleSystemModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.PerformanceReportingModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.Physics2DModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.PhysicsModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.Purchasing.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ScreenCaptureModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.SharedInternalsModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.SpatialTracking.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.SpatialTrackingModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.SpriteMaskModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.SpriteShapeModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.StandardEvents.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.StyleSheetsModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.SubstanceModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TerrainModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TerrainPhysicsModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TestRunner.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TextRenderingModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TilemapModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.Timeline.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TimelineModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TLSModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UIAutomation.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UIElementsModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UIModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UmbraModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UNETModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityAnalyticsModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityConnectModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityWebRequestAssetBundleModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityWebRequestAudioModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityWebRequestModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityWebRequestTextureModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityWebRequestWWWModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.VehiclesModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.VideoModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.VRModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.WebModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.WindModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.XRModule.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityScript.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityScript.Lang.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Vuforia.UnityExtensions.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Vuforia.UnityExtensions.Editor.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.Cecil.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.DataContract.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/ExCSS.Unity.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.Legacy.NRefactory.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Boo.Lang.Parser.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Boo.Lang.Compiler.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.IvyParser.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.Cecil.Mdb.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/SyntaxTree.VisualStudio.Unity.Messaging.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/System.Configuration.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Boo.Lang.PatternMatching.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Boo.Lang.Useful.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.Cecil.Pdb.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Assembly-CSharp-firstpass.pdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.StandardEvents.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.PackageManagerUI.Editor.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.AIModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.AIModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ARModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ARModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.AccessibilityModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.AccessibilityModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.AnimationModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.AnimationModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.AssetBundleModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.AssetBundleModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.AudioModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.AudioModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.BaselibModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.BaselibModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ClothModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ClothModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.CloudWebServicesModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.CloudWebServicesModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ClusterInputModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ClusterInputModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ClusterRendererModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ClusterRendererModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.CoreModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.CoreModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.CrashReportingModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.CrashReportingModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.DirectorModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.DirectorModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.FacebookModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.FacebookModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.GameCenterModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.GameCenterModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.GridModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.GridModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.HotReloadModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.HotReloadModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.IMGUIModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.IMGUIModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ImageConversionModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ImageConversionModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.InputModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.InputModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.JSONSerializeModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.JSONSerializeModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ParticleSystemModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ParticleSystemModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ParticlesLegacyModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ParticlesLegacyModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.PerformanceReportingModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.PerformanceReportingModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.PhysicsModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.PhysicsModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.Physics2DModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.Physics2DModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ScreenCaptureModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.ScreenCaptureModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.SharedInternalsModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.SharedInternalsModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.SpatialTrackingModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.SpatialTrackingModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.SpriteMaskModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.SpriteMaskModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.SpriteShapeModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.SpriteShapeModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.StyleSheetsModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.StyleSheetsModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.SubstanceModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.SubstanceModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TLSModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TLSModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TerrainModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TerrainModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TerrainPhysicsModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TerrainPhysicsModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TextRenderingModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TextRenderingModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TilemapModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TilemapModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TimelineModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TimelineModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UIModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UIModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UIElementsModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UIElementsModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UNETModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UNETModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UmbraModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UmbraModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityAnalyticsModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityAnalyticsModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityConnectModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityConnectModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityWebRequestModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityWebRequestModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityWebRequestAssetBundleModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityWebRequestAssetBundleModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityWebRequestAudioModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityWebRequestAudioModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityWebRequestTextureModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityWebRequestTextureModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityWebRequestWWWModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UnityWebRequestWWWModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.VRModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.VRModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.VehiclesModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.VehiclesModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.VideoModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.VideoModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.WebModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.WebModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.WindModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.WindModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.XRModule.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.XRModule.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.Locator.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UIAutomation.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UIAutomation.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.UIAutomation.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.UIAutomation.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.TestRunner.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.TestRunner.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TestRunner.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.TestRunner.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/nunit.framework.pdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/nunit.framework.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.Networking.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.Networking.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.Networking.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.Networking.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UI.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.UI.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.UI.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.UI.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.Timeline.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.Timeline.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.Timeline.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.Timeline.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.TreeEditor.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.TreeEditor.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.GoogleAudioSpatializer.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.GoogleAudioSpatializer.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.GoogleAudioSpatializer.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.GoogleAudioSpatializer.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.HoloLens.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.HoloLens.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.HoloLens.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.HoloLens.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.SpatialTracking.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.SpatialTracking.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.SpatialTracking.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.SpatialTracking.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.VR.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.VR.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Vuforia.UnityExtensions.Editor.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Vuforia.UnityExtensions.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.Graphs.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.iOS.Extensions.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.WebGL.Extensions.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.WindowsStandalone.Extensions.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.OSXStandalone.Extensions.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.Facebook.Extensions.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.Advertisements.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.Analytics.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.Analytics.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.Purchasing.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.Purchasing.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.StandardEvents.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.IvyParser.dll.mdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.xml
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll.mdb
+/Users/jordan/Unity/3DBarGraph/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojResolveAssemblyReference.cache
+/Users/jordan/Unity/3DBarGraph/obj/Debug/Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+/Users/jordan/Unity/3DBarGraph/obj/Debug/Assembly-CSharp-Editor-firstpass.dll
+/Users/jordan/Unity/3DBarGraph/obj/Debug/Assembly-CSharp-Editor-firstpass.pdb
