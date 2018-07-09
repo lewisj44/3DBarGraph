@@ -17,8 +17,6 @@ public class GraphManager : MonoBehaviour
     public GameObject _label;
     public Material[] colors;
 
-  
-
     private float xOffset;
     private float zOffset;
     private GameObject[][] graph;
@@ -47,16 +45,13 @@ public class GraphManager : MonoBehaviour
             data[i] = new float[rowSize];
         }
        
-
-
         //Instatiate graph objects
         InstantiateBars();
         InstantiateGrid();
         InstantiateRotator(); //x
         InstantiateLabels();
-       
+      
     }
-
 
 	private void InstantiateBars()
     {

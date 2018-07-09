@@ -28,13 +28,11 @@ public class DBConnection : MonoBehaviour
             {
                 for (int qtr = 0; qtr < 4; qtr++)
                 {
-                    InsertSale(year, qtr, 1);
+                    InsertSale(year, qtr, 1.00);
                 }
-
             }
         }
         Debug.Log(dbPath);
-
     }
 
 
@@ -50,7 +48,7 @@ public class DBConnection : MonoBehaviour
     }
 
 
-    public void InsertSale(int year, int quarter, decimal sale)
+    public void InsertSale(int year, int quarter, double sale)
     {
         using (SqliteConnection conn = new SqliteConnection(dbPath))
         {

@@ -51,7 +51,6 @@ public class DataText : MonoBehaviour
         dataText.text = ""  + (cube.GetComponent<DragBar>().Value)
                             + "\n " + cube.GetComponent<DragBar>().Year + ", " + cube.GetComponent<DragBar>().Quarter;
                           
-
         if ((cube.transform.lossyScale.y < 0 && paddingHeight > 0) || (cube.transform.lossyScale.y > 0 && paddingHeight < 0)) paddingHeight = -paddingHeight;
         //Update position
         textPosition.x = cube.transform.localPosition.x;

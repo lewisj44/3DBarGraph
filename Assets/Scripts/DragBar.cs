@@ -23,6 +23,7 @@ public class DragBar : MonoBehaviour
     private bool minReached;
     private bool isShiftDown;
     private bool isCtrlDown;
+    private bool isLocked = true;
 
 
     private void Start()
@@ -36,15 +37,17 @@ public class DragBar : MonoBehaviour
 
     private void Update()
     {
+        
+        if(Input.GetKeyDown(KeyCode.L)) isLocked = !isLocked;
         isShiftDown = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
-        isCtrlDown = (Input.GetKey(KeyCode.LeftApple) || Input.GetKey(KeyCode.RightApple))  || (Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl));
+        isCtrlDown = (Input.GetKey(KeyCode.LeftApple) || Input.GetKey(KeyCode.RightApple)) || (Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl));
         if(isShiftDown)
         {
             _sensitivity = sensitivity / 10f;
             if(isCtrlDown) _sensitivity /= 10f;
         }
         else _sensitivity = sensitivity;
-        if (isDragged)
+        if (isDragged && !isLocked)
         {
             //mouseOffset = Input.mousePosition - mouseReference;
             movement.y = Input.GetAxis("Mouse Y") * _sensitivity;
@@ -53,7 +56,6 @@ public class DragBar : MonoBehaviour
             //mouseReference = Input.mousePosition;
             maxReached = Mathf.Abs(transform.localScale.y) >= 10f;
             manager.data[X][Z] = Utility.Truncate(transform.localScale.y * 10.00f, 2);
-            Debug.Log(manager.data[X][Z]);
             database.UpdateSale(X, Z, manager.data[X][Z]);
         }
         if(maxReached)

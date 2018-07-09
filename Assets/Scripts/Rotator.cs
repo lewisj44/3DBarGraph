@@ -3,7 +3,6 @@ using System.Collections;
 
 public class Rotator : MonoBehaviour
 {
-
     public float sensitivity = 0.5f;
     public int axis;
     public bool flipped = false;
@@ -13,7 +12,7 @@ public class Rotator : MonoBehaviour
     private Vector3 mouseReference;
     private Vector3 mouseOffset;
     private Vector3 rotation;
-
+    private bool isLocked = true;
 
     private void Start()
     {
@@ -23,7 +22,8 @@ public class Rotator : MonoBehaviour
 
     private void Update()
     {
-        if (isRotating)
+        if (Input.GetKeyDown(KeyCode.R)) isLocked = !isLocked;
+        if (isRotating && !isLocked)
         {
             ///*
             mouseOffset = Input.mousePosition - mouseReference;
