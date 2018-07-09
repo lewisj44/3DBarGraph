@@ -7,6 +7,7 @@ using Mono.Data.SqliteClient;
 
 public class DBConnection : MonoBehaviour 
 {
+    public string dbName;
     private string dbPath;
     private string xLabel;
     private string yLabel;
@@ -14,7 +15,7 @@ public class DBConnection : MonoBehaviour
 
     private void Awake()
     {
-        dbPath = "URI=file:" + Application.dataPath + "/testData2.db";
+        dbPath = "URI=file:" + Application.dataPath + "/" + dbName + ".db";
         Debug.Log(dbPath);
         CreateSchema();
     }

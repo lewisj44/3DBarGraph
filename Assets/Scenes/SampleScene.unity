@@ -267,6 +267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1b75699fb3c44e4eb1729ff4d50bd55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dbName: testData
 --- !u!1001 &993843719
 Prefab:
   m_ObjectHideFlags: 0
