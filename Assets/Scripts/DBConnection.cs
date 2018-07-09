@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Data;
+using System.IO;
 using Mono.Data.SqliteClient;
-
 
 public class DBConnection : MonoBehaviour 
 {
     public string dbName;
+    public int startYear;
+    public int endYear;
 
     private string dbPath;
     private string xLabel;
@@ -17,8 +19,22 @@ public class DBConnection : MonoBehaviour
     private void Awake()
     {
         dbPath = "URI=file:" + Application.dataPath + "/" + dbName + ".db";
+        string filePath = Application.dataPath + "/" + dbName + ".db";
+        if(!File.Exists(filePath))
+        {
+            Debug.Log("DATA NOT FOUND. CREATING DATABASE");
+            CreateSchema();
+            for (int year = startYear; year <= endYear; year++)
+            {
+                for (int qtr = 0; qtr < 4; qtr++)
+                {
+                    InsertSale(year, qtr, 1);
+                }
+
+            }
+        }
         Debug.Log(dbPath);
-        CreateSchema();
+
     }
 
 
@@ -26,7 +42,7 @@ public class DBConnection : MonoBehaviour
     {
         using (SqliteConnection conn = new SqliteConnection(dbPath))
         {
-            string queryString = "CREATE TABLE IF NOT EXISTS 'sales_data'( `year` INTEGER NOT NULL, `quarter` INTEGER NOT NULL, `sales` INTEGER NOT NULL);";
+            string queryString = "CREATE TABLE IF NOT EXISTS 'sales_data'( `year` INTEGER NOT NULL, `quarter` INTEGER NOT NULL, `sales` NUMERIC(18,2) NOT NULL);";
             SqliteCommand cmd = new SqliteCommand(queryString, conn);
             cmd.Connection.Open();
             cmd.ExecuteNonQuery();
@@ -34,7 +50,7 @@ public class DBConnection : MonoBehaviour
     }
 
 
-    public void InsertSale(int year, int quarter, int sale)
+    public void InsertSale(int year, int quarter, decimal sale)
     {
         using (SqliteConnection conn = new SqliteConnection(dbPath))
         {
@@ -46,7 +62,7 @@ public class DBConnection : MonoBehaviour
         }
     }
 
-    public int GetSale(int year, int quarter)
+    public double GetSale(int year, int quarter)
     {
         using (SqliteConnection conn = new SqliteConnection(dbPath))
         {
@@ -56,13 +72,13 @@ public class DBConnection : MonoBehaviour
             cmd.Parameters.Add(new SqliteParameter("@quarter", quarter));
             cmd.Connection.Open();
             var reader = cmd.ExecuteReader();
-            var result = -1;
-            if(reader.Read()) result = System.Convert.ToInt32(reader["saleData"]);
+            var result = -1.00;
+            if(reader.Read()) result = System.Convert.ToDouble(reader["saleData"]);
             return result;
         }
     }
 
-    public void UpdateSale(int year, int quarter, int sale)
+    public void UpdateSale(int year, int quarter, float sale)
     {
         using (SqliteConnection conn = new SqliteConnection(dbPath))
         {

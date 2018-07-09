@@ -7,7 +7,7 @@ public class GraphManager : MonoBehaviour
     public float rows;
     public float columns;
     public float[][] data;
-    public DBConnection database;
+
     public GameObject _cube;
     public GameObject _base;
     public GameObject _dataText;
@@ -17,9 +17,12 @@ public class GraphManager : MonoBehaviour
     public GameObject _label;
     public Material[] colors;
 
+  
+
     private float xOffset;
     private float zOffset;
     private GameObject[][] graph;
+    private DBConnection database;
 
 
     private void Start()
@@ -36,19 +39,22 @@ public class GraphManager : MonoBehaviour
         //Initialize data and graph array
         int rowSize = (int)rows;
         int colSize = (int)columns;
-        graph = new GameObject[rowSize][];
-        data = new float[rowSize][];
-        for (int i = 0; i < rowSize; i++)
+        graph = new GameObject[colSize][];
+        data = new float[colSize][];
+        for (int i = 0; i < colSize; i++)
         {
-            graph[i] = new GameObject[colSize];
-            data[i] = new float[colSize];
+            graph[i] = new GameObject[rowSize];
+            data[i] = new float[rowSize];
         }
+       
+
 
         //Instatiate graph objects
         InstantiateBars();
         InstantiateGrid();
         InstantiateRotator(); //x
         InstantiateLabels();
+       
     }
 
 
@@ -78,16 +84,15 @@ public class GraphManager : MonoBehaviour
                 GameObject bar = Instantiate(_cube);
                 bar.transform.parent = row.transform;
 
-                float yScale = (float)database.GetSale(database.GetStartYear() + colIndex, rowIndex)/10f;
+                float yScale = (float)database.GetSale((database.GetStartYear() + colIndex), rowIndex)/10f;
                 bar.transform.localScale = new Vector3(transform.localScale.x, yScale, transform.localScale.z);
 
                 //Position bar in x-axis. Z positon is set by parent Row object
                 bar.transform.localPosition = new Vector3(x + xOffset, yScale / 2.00f, 0f);
 
                 //Set bar color
-                Material newMaterial = colors[colIndex];
                 Renderer rend = bar.GetComponent<Renderer>();
-                if (rend != null) rend.material = newMaterial;
+                rend.material = colors[colIndex % 6];
 
                 //Set x and z position for Bar instance
                 bar.GetComponent<DragBar>().X = colIndex;
@@ -96,9 +101,10 @@ public class GraphManager : MonoBehaviour
                 bar.GetComponent<DragBar>().Quarter = "Q" + (rowIndex + 1);
                 bar.GetComponent<DragBar>().Z = rowIndex;
 
+        
                 //Add bar to array
                 graph[colIndex][rowIndex] = bar;
-                data[colIndex][rowIndex] = yScale;
+                data[colIndex][rowIndex] = yScale * 10f;;
                 colIndex++;
             }
             rowIndex++;
@@ -186,6 +192,7 @@ public class GraphManager : MonoBehaviour
         }
     }
 
+    //Set color of gridLines
     private void SetLineMaterial(GameObject obj)
     {
         Material whiteDiffuseMat = new Material(Shader.Find("Unlit/Texture"));
@@ -247,5 +254,4 @@ public class GraphManager : MonoBehaviour
             labelText.text = "Q" + quarter;
         }
     }
-
 }

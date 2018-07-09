@@ -9,6 +9,7 @@ public class DragBar : MonoBehaviour
     public int Z { get; set; }
     public string Quarter { get; set; }
     public string Year { get; set; }
+    public float Value { get; set; }
 
     private Vector3 mouseReference;
     private Vector3 mouseOffset;
@@ -21,6 +22,7 @@ public class DragBar : MonoBehaviour
     private bool maxReached;
     private bool minReached;
     private bool isShiftDown;
+    private bool isCtrlDown;
 
 
     private void Start()
@@ -35,9 +37,11 @@ public class DragBar : MonoBehaviour
     private void Update()
     {
         isShiftDown = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
+        isCtrlDown = (Input.GetKey(KeyCode.LeftApple) || Input.GetKey(KeyCode.RightApple))  || (Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl));
         if(isShiftDown)
         {
             _sensitivity = sensitivity / 10f;
+            if(isCtrlDown) _sensitivity /= 10f;
         }
         else _sensitivity = sensitivity;
         if (isDragged)
@@ -48,8 +52,9 @@ public class DragBar : MonoBehaviour
             transform.localPosition =  new Vector3(transform.localPosition.x, transform.localScale.y / 2.00f, transform.localPosition.z);
             //mouseReference = Input.mousePosition;
             maxReached = Mathf.Abs(transform.localScale.y) >= 10f;
-            manager.data[X][Z] = Mathf.Round(transform.localScale.y * 10.00f);
-            database.UpdateSale(X, Z, (int)manager.data[X][Z]);
+            manager.data[X][Z] = Utility.Truncate(transform.localScale.y * 10.00f, 2);
+            Debug.Log(manager.data[X][Z]);
+            database.UpdateSale(X, Z, manager.data[X][Z]);
         }
         if(maxReached)
         {
@@ -58,6 +63,7 @@ public class DragBar : MonoBehaviour
             transform.localPosition = new Vector3(transform.localPosition.x, transform.localScale.y / 2.00f, transform.localPosition.z);
             maxReached = false;
         }
+        Value = manager.data[X][Z];
     }
 
     private void OnMouseDown()

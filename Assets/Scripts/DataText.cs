@@ -48,7 +48,9 @@ public class DataText : MonoBehaviour
             return;
         }
 
-        dataText.text = "" + (cube.transform.localScale.y * 10.00).ToString("0.00") + "\n " + cube.GetComponent<DragBar>().Year + ", "+ cube.GetComponent<DragBar>().Quarter;
+        dataText.text = ""  + (cube.GetComponent<DragBar>().Value)
+                            + "\n " + cube.GetComponent<DragBar>().Year + ", " + cube.GetComponent<DragBar>().Quarter;
+                          
 
         if ((cube.transform.lossyScale.y < 0 && paddingHeight > 0) || (cube.transform.lossyScale.y > 0 && paddingHeight < 0)) paddingHeight = -paddingHeight;
         //Update position

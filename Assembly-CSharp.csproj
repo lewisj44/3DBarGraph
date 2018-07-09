@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\LabelText.cs" />
     <Compile Include="Assets\Scripts\LineManager.cs" />
     <Compile Include="Assets\Scripts\Rotator.cs" />
+    <Compile Include="Assets\Scripts\Utility.cs" />
     <None Include="Assets\third_party_notices.txt" />
     <None Include="Assets\LICENSE.txt" />
     <None Include="Assets\Materials\3DText.shader" />

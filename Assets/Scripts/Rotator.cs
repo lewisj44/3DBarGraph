@@ -34,7 +34,7 @@ public class Rotator : MonoBehaviour
             transform.parent.Rotate(rotation);
             mouseReference = Input.mousePosition;
             //*/
-
+            //VR 
             /*
             Vector2 movement = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick);
             rotation.x = movement.x;
