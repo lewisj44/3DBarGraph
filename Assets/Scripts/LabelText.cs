@@ -12,6 +12,7 @@ public class LabelText : MonoBehaviour
     private RaycastHit hit;
     private Vector3 cameraRotation;
 
+
     void Start()
     {
         dataText = GetComponent<TextMesh>();

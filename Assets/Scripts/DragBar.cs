@@ -13,13 +13,13 @@ public class DragBar : MonoBehaviour
     private Vector3 mouseReference;
     private Vector3 mouseOffset;
     private Vector3 movement;
+    private GraphManager manager;
+    private DBConnection database;
     private bool isDragged;
     private float scale;
     private float _sensitivity;
     private bool maxReached;
     private bool minReached;
-    private GraphManager manager;
-    private DBConnection database;
     private bool isShiftDown;
 
 
@@ -38,7 +38,6 @@ public class DragBar : MonoBehaviour
         if(isShiftDown)
         {
             _sensitivity = sensitivity / 10f;
-            isShiftDown = false;
         }
         else _sensitivity = sensitivity;
         if (isDragged)

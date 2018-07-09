@@ -8,6 +8,7 @@ using Mono.Data.SqliteClient;
 public class DBConnection : MonoBehaviour 
 {
     public string dbName;
+
     private string dbPath;
     private string xLabel;
     private string yLabel;
@@ -33,12 +34,12 @@ public class DBConnection : MonoBehaviour
     }
 
 
-    public void InsertSale(int year, int quarter, int sales)
+    public void InsertSale(int year, int quarter, int sale)
     {
         using (SqliteConnection conn = new SqliteConnection(dbPath))
         {
             
-            string queryString = "INSERT INTO sales_data (year, quarter, sales) VALUES ('" + year + "', '" + quarter + "', '" + sales + "')";
+            string queryString = "INSERT INTO sales_data (year, quarter, sales) VALUES ('" + year + "', '" + quarter + "', '" + sale + "')";
             SqliteCommand cmd = new SqliteCommand(queryString, conn);
             cmd.Connection.Open();
             cmd.ExecuteNonQuery();

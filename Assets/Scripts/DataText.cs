@@ -14,6 +14,7 @@ public class DataText : MonoBehaviour
     private Vector3 cameraRotation;
     private Vector3 textPosition;
 
+
     void Start()
     {
         textPosition = Vector3.zero;
