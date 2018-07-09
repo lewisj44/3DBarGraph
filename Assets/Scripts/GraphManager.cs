@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GraphManager : MonoBehaviour {
-    
+public class GraphManager : MonoBehaviour 
+{    
     public float rows;
     public float columns;
+    public float[][] data;
+    public DBConnection database;
     public GameObject _cube;
     public GameObject _base;
     public GameObject _dataText;
@@ -15,21 +17,33 @@ public class GraphManager : MonoBehaviour {
     public GameObject _label;
     public Material[] colors;
 
-
-    private float xOffset = 0.5f;
-    private float yOffset = 0.5f;
+    private float xOffset;
+    private float zOffset;
     private GameObject[][] graph;
+
 
     private void Start()
     {
-        //Initialze graph array
+        //Connect database and get graph dimsensions
+        database = GetComponent<DBConnection>();
+        rows = database.GetNumQuarters();
+        columns = database.GetNumYears();
+
+        //Get position offset
+        xOffset = transform.localScale.x / 2f;
+        zOffset = transform.localScale.z / 2f;
+
+        //Initialize data and graph array
         int rowSize = (int)rows;
         int colSize = (int)columns;
         graph = new GameObject[rowSize][];
-        for (int i = 0; i < graph.Length; i++)
+        data = new float[rowSize][];
+        for (int i = 0; i < rowSize; i++)
         {
             graph[i] = new GameObject[colSize];
+            data[i] = new float[colSize];
         }
+
         //Instatiate graph objects
         InstantiateBars();
         InstantiateGrid();
@@ -37,9 +51,10 @@ public class GraphManager : MonoBehaviour {
         InstantiateLabels();
     }
 
-    private void InstantiateBars()
+
+	private void InstantiateBars()
     {
-        //indexes for storing graph bars in graph array
+        //Indexes for array storage
         int rowIndex = 0;
         int colIndex = 0;
 
@@ -49,8 +64,8 @@ public class GraphManager : MonoBehaviour {
             rowIndex = (int)(y + rows / 2f);
 
             //Create row object to hold bars
-            GameObject row = new GameObject("*Row " + (y + yOffset));
-            row.transform.position = new Vector3(0f, 0f, y + yOffset);
+            GameObject row = new GameObject("*Row " + (y + zOffset));
+            row.transform.position = new Vector3(0f, 0f, y + zOffset);
             row.transform.parent = this.transform;
 
             colIndex = 0;
@@ -63,21 +78,27 @@ public class GraphManager : MonoBehaviour {
                 GameObject bar = Instantiate(_cube);
                 bar.transform.parent = row.transform;
 
-                //Set a random height for bar
-                float yScale = Random.Range(-5f, 5f);
-                if(Mathf.Abs(yScale - 0f) < float.Epsilon) yScale = Random.Range(0, 5f);
-                bar.transform.localScale = new Vector3(1f,yScale , 1f);
+                float yScale = (float)database.GetSale(database.GetStartYear() + colIndex, rowIndex)/10f;
+                bar.transform.localScale = new Vector3(transform.localScale.x, yScale, transform.localScale.z);
 
                 //Position bar in x-axis. Z positon is set by parent Row object
-                bar.transform.localPosition = new Vector3(x + xOffset, bar.transform.localScale.y / 2.0f, 0f);
+                bar.transform.localPosition = new Vector3(x + xOffset, yScale / 2.00f, 0f);
 
                 //Set bar color
-                Material newMaterial = colors[Random.Range(0, colors.Length)];
+                Material newMaterial = colors[colIndex];
                 Renderer rend = bar.GetComponent<Renderer>();
                 if (rend != null) rend.material = newMaterial;
 
-                //Add bar to graph array
-                graph[rowIndex][colIndex] = bar;
+                //Set x and z position for Bar instance
+                bar.GetComponent<DragBar>().X = colIndex;
+                bar.GetComponent<DragBar>().Z = rowIndex;
+                bar.GetComponent<DragBar>().Year = "" + (colIndex + database.GetStartYear());
+                bar.GetComponent<DragBar>().Quarter = "Q" + (rowIndex + 1);
+                bar.GetComponent<DragBar>().Z = rowIndex;
+
+                //Add bar to array
+                graph[colIndex][rowIndex] = bar;
+                data[colIndex][rowIndex] = yScale;
                 colIndex++;
             }
             rowIndex++;
@@ -153,13 +174,13 @@ public class GraphManager : MonoBehaviour {
         }
 
         //Gridlines along z-axis
-        for (float y = (-columns / 2); y < columns / 2; y++)
+        for (float z = (-columns / 2); z < columns / 2; z++)
         {
-            GameObject colLine = new GameObject("colLine " + y);
+            GameObject colLine = new GameObject("colLine " + z);
             colLine.AddComponent<LineRenderer>();
             colLine.transform.parent = grid.transform;
             colLine.transform.localScale = new Vector3(1f, 1f, rows + 2f);
-            colLine.transform.localPosition = new Vector3(y + yOffset, 0f, -colLine.transform.localScale.z / 2f);
+            colLine.transform.localPosition = new Vector3(z + zOffset, 0f, -colLine.transform.localScale.z / 2f);
             SetLineMaterial(colLine);
             colLine.transform.parent = grid.transform;
         }
@@ -180,46 +201,50 @@ public class GraphManager : MonoBehaviour {
     {
         //Label for bar data
         GameObject dataText = Instantiate(_dataText, new Vector3(0f, 0f, 0f), Quaternion.identity) as GameObject;
-        dataText.transform.parent = this.transform;
+        dataText.transform.SetParent(this.transform);
 
         //Canvas object to hold graph axis labels
         GameObject labelCanvas = Instantiate(_labelCanvas, new Vector3(0f, 0f, 0f), Quaternion.identity) as GameObject;
-        labelCanvas.transform.parent = this.transform;
+        labelCanvas.transform.SetParent(this.transform);
 
         //Label for x-axis
         GameObject xlabelTitle = Instantiate(_label, new Vector3(0f, 0f, -(rows + 6f) / 2f), Quaternion.identity) as GameObject;
         xlabelTitle.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
-        xlabelTitle.transform.parent = labelCanvas.transform;
+        xlabelTitle.transform.SetParent(labelCanvas.transform);
         TextMesh xlabelTitleText = xlabelTitle.GetComponent<TextMesh>();
-        xlabelTitleText.text = "Title 1";
+        xlabelTitleText.text = "Year";
         xlabelTitleText.fontSize = 40;
 
         //Label for y-axis
-        GameObject ylabelTitle = Instantiate(_label, new Vector3((columns + 6f) / 2f, 0f, 0f), Quaternion.identity) as GameObject;
+        GameObject ylabelTitle = Instantiate(_label, new Vector3(-(columns + 6f) / 2f, 0f, 0f), Quaternion.identity) as GameObject;
         ylabelTitle.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
-        ylabelTitle.transform.parent = labelCanvas.transform;
+        ylabelTitle.transform.SetParent(labelCanvas.transform);
         TextMesh ylabelTitleText = ylabelTitle.GetComponent<TextMesh>();
-        ylabelTitleText.text = "Title 2";
+        ylabelTitleText.text = "Quarter";
         ylabelTitleText.fontSize = 40;
 
         //Labels for x-axis grid
         for (float x = (-columns / 2); x < columns / 2; x++)
         {
+            int year = (int)(x + columns / 2f) + database.GetStartYear();
+
             GameObject label = Instantiate(_label, new Vector3((x + xOffset), 0f, -(rows + 3f)/2f), Quaternion.identity) as GameObject;
             label.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
-            label.transform.parent = labelCanvas.transform;
+            label.transform.SetParent(labelCanvas.transform);
             TextMesh labelText = label.GetComponent<TextMesh>();
-            labelText.text = "Grp";
+            labelText.text = year + "";
+
         }
 
         //Labels for y-axis grid
-        for (float y = (-rows / 2); y < rows / 2; y++)
+        for (float z = (-rows / 2); z < rows / 2; z++)
         {
-            GameObject label = Instantiate(_label, new Vector3((columns + 3f) / 2f, 0f, (y + yOffset)), Quaternion.identity) as GameObject;
+            int quarter = (int)(z + rows / 2f) + 1;
+            GameObject label = Instantiate(_label, new Vector3(-(columns + 3f) / 2f, 0f, (z + zOffset)), Quaternion.identity) as GameObject;
             label.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
-            label.transform.parent = labelCanvas.transform;
+            label.transform.SetParent(labelCanvas.transform);
             TextMesh labelText = label.GetComponent<TextMesh>();
-            labelText.text = "Ctg";
+            labelText.text = "Q" + quarter;
         }
     }
 

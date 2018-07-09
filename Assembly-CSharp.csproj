@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\DataText.cs" />
+    <Compile Include="Assets\Scripts\DBConnection.cs" />
     <Compile Include="Assets\Scripts\DragBar.cs" />
     <Compile Include="Assets\Scripts\FreeRotate.cs" />
     <Compile Include="Assets\Scripts\GraphManager.cs" />
@@ -275,6 +276,12 @@
     </Reference>
     <Reference Include="Vuforia.UnityExtensions">
       <HintPath>/Applications/Unity/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>/Users/jordan/Unity/3DBarGraph/Assets/Plugins/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.SqliteClient">
+      <HintPath>/Users/jordan/Unity/3DBarGraph/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Users/jordan/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>

@@ -32,14 +32,14 @@ public class DataText : MonoBehaviour
                 if (hit.collider.gameObject.tag == "Cube")
                 {
                     cube = hit.collider.gameObject;
-                    updateText();
+                    //UpdateText();
                 }
             }
         }
-        updateText();
+        UpdateText();
     }
 
-    void updateText()
+    void UpdateText()
     {
         if (cube == null)
         {
@@ -47,7 +47,7 @@ public class DataText : MonoBehaviour
             return;
         }
 
-        dataText.text = "" + Mathf.Round(cube.transform.localScale.y * 100f);
+        dataText.text = "" + (cube.transform.localScale.y * 10.00).ToString("0.00") + "\n " + cube.GetComponent<DragBar>().Year + ", "+ cube.GetComponent<DragBar>().Quarter;
 
         if ((cube.transform.lossyScale.y < 0 && paddingHeight > 0) || (cube.transform.lossyScale.y > 0 && paddingHeight < 0)) paddingHeight = -paddingHeight;
         //Update position

@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{59398FFF-8E9A-37DF-7FA6-77A466FA8D47}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LabelText.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GraphManager.cs" Line="6" Column="2" />
+      <File FileName="Assets/Scripts/Rotator.cs" Line="35" Column="50" />
+      <File FileName="Assets/Scripts/DragBar.cs" Line="33" Column="6" />
+      <File FileName="Assets/Scripts/DataText.cs" Line="67" Column="2" />
+      <File FileName="Assets/Scripts/DBConnection.cs" Line="20" Column="5" />
+      <File FileName="Assets/Scripts/LabelText.cs" Line="14" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

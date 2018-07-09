@@ -251,6 +251,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
+--- !u!1 &978117805 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1539826267582948, guid: d40f5110aa9f6493ca5bdec00581eec2,
+    type: 2}
+  m_PrefabInternal: {fileID: 993843719}
+--- !u!114 &978117809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 978117805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1b75699fb3c44e4eb1729ff4d50bd55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &993843719
 Prefab:
   m_ObjectHideFlags: 0
@@ -258,6 +274,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114579565425879728, guid: d40f5110aa9f6493ca5bdec00581eec2,
+        type: 2}
+      propertyPath: colors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4948757974941718, guid: d40f5110aa9f6493ca5bdec00581eec2, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -321,6 +342,21 @@ Prefab:
       propertyPath: axis
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114579565425879728, guid: d40f5110aa9f6493ca5bdec00581eec2,
+        type: 2}
+      propertyPath: colors.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: c54588029544e46358a177d364e78a25, type: 2}
+    - target: {fileID: 114579565425879728, guid: d40f5110aa9f6493ca5bdec00581eec2,
+        type: 2}
+      propertyPath: colors.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: 26392af0212a44ff19bdd80bf0f7ffde, type: 2}
+    - target: {fileID: 114579565425879728, guid: d40f5110aa9f6493ca5bdec00581eec2,
+        type: 2}
+      propertyPath: colors.Array.data[5]
+      value: 
+      objectReference: {fileID: 2100000, guid: 785f9cba38df348ef95289157b39f87e, type: 2}
     m_RemovedComponents:
     - {fileID: 114273272526152542, guid: d40f5110aa9f6493ca5bdec00581eec2, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: d40f5110aa9f6493ca5bdec00581eec2, type: 2}
