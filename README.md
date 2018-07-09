@@ -6,4 +6,4 @@ Procedurally-generated 3D Bar Graph connected to SQLite3 database. The graph can
 
 * The Database will be stored in the Application.datapath folder. The database name can be set via the inspector under the "Graph" GameObject and "DBConnection" Component.
 * Use base of graph to rotate around the y-axis. Use handles to rotate in x and z axis.
-* Bar values can be adjusted via click-and-drag. Hold shift to change precision.
+* Bar values can be adjusted via click-and-drag. Hold shift or shift+ctrl (shift+cmd on Mac) to change precision.
