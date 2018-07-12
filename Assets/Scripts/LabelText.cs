@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class LabelText : MonoBehaviour
 {
     public TextMesh dataText;
-    public Camera mainCamera;
+    public GameObject mainCamera;
 
     private GameObject cube;
     private RaycastHit hit;
@@ -16,13 +16,16 @@ public class LabelText : MonoBehaviour
     void Start()
     {
         dataText = GetComponent<TextMesh>();
-        mainCamera = Camera.main;
+        mainCamera = GameObject.Find("[VRTK_SDKManager]/SDKSetups/Simulator/VRSimulatorCameraRig");
     }
 
     void Update()
     {
         //Rotate text to face main camera
-        cameraRotation.y = mainCamera.transform.rotation.y;
-        transform.rotation = new Quaternion(0f, cameraRotation.y, 0f, 1f);
+        //cameraRotation.y = mainCamera.transform.rotation.y;
+        //Debug.Log(cameraRotation.y);
+        //transform.rotation = new Quaternion(0f, cameraRotation.y, 0f, 1f);
+        transform.rotation = Quaternion.LookRotation(transform.position - mainCamera.transform.position);
+        //transform.rotation = new Quaternion(transform.rotation.x, transform.rotation.y + 180f, transform.rotation.z, 1f);
     }
 }

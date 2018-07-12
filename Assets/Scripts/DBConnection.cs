@@ -4,6 +4,7 @@ using UnityEngine;
 using System.Data;
 using System.IO;
 using Mono.Data.SqliteClient;
+using System;
 
 public class DBConnection : MonoBehaviour 
 {
@@ -16,11 +17,13 @@ public class DBConnection : MonoBehaviour
     private string yLabel;
 
 
-    private void Awake()
+
+    public void LoadData(string _dbName = null)
     {
+        if (_dbName != null) dbName = _dbName;
         dbPath = "URI=file:" + Application.dataPath + "/" + dbName + ".db";
         string filePath = Application.dataPath + "/" + dbName + ".db";
-        if(!File.Exists(filePath))
+        if (!File.Exists(filePath))
         {
             Debug.Log("DATA NOT FOUND. CREATING DATABASE");
             CreateSchema();
@@ -35,7 +38,6 @@ public class DBConnection : MonoBehaviour
         Debug.Log(dbPath);
     }
 
-
     public void CreateSchema()
     {
         using (SqliteConnection conn = new SqliteConnection(dbPath))
@@ -47,7 +49,12 @@ public class DBConnection : MonoBehaviour
         }
     }
 
-
+    /// <summary>
+    /// Insert sales amout for specified year and quarter
+    /// </summary>
+    /// <param name="year"></param>
+    /// <param name="quarter"></param>
+    /// <param name="sale"></param>
     public void InsertSale(int year, int quarter, double sale)
     {
         using (SqliteConnection conn = new SqliteConnection(dbPath))
@@ -60,6 +67,12 @@ public class DBConnection : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Get sales amout for specified year and quarter
+    /// </summary>
+    /// <param name="year"></param>
+    /// <param name="quarter"></param>
+    /// <returns>Returns sales amount</returns>
     public double GetSale(int year, int quarter)
     {
         using (SqliteConnection conn = new SqliteConnection(dbPath))
@@ -76,6 +89,11 @@ public class DBConnection : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Update sales amout for specified year and quarter
+    /// </summary>
+    /// <param name="year"></param>
+    /// <param name="quarter"></param>
     public void UpdateSale(int year, int quarter, float sale)
     {
         using (SqliteConnection conn = new SqliteConnection(dbPath))
@@ -90,6 +108,10 @@ public class DBConnection : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Get numbers of years that sales data table covers
+    /// </summary>
+    /// <returns>Returns numbers of years</returns>
     public int GetNumYears()
     {
         using (SqliteConnection conn = new SqliteConnection(dbPath))
@@ -103,7 +125,10 @@ public class DBConnection : MonoBehaviour
             return result;
         }
     }
-
+    /// <summary>
+    /// Get numbers of quarters that sales data table covers
+    /// </summary>
+    /// <returns>Returns numbers of quarters. Should return 4</returns>
     public int GetNumQuarters()
     {
         using (SqliteConnection conn = new SqliteConnection(dbPath))
@@ -118,6 +143,10 @@ public class DBConnection : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Get start year for sales data
+    /// </summary>
+    /// <returns>Returns first year in table</returns>
     public int GetStartYear()
     {
         using (SqliteConnection conn = new SqliteConnection(dbPath))

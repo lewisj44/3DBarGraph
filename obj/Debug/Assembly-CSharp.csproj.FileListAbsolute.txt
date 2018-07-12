@@ -338,13 +338,11 @@
 /Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Boo.Lang.Compiler.dll
 /Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.UNetWeaver.dll
 /Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.IvyParser.dll
-/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Mono.Security.dll
 /Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Boo.Lang.PatternMatching.dll
 /Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Boo.Lang.Useful.dll
 /Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.Cecil.Pdb.dll
 /Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Unity.Cecil.Mdb.dll
-/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Assembly-CSharp-firstpass.pdb
 /Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.dll.mdb
 /Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEngine.xml
 /Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/UnityEditor.dll.mdb
@@ -490,3 +488,5 @@
 /Users/jordan/Unity/3DBarGraph/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
 /Users/jordan/Unity/3DBarGraph/obj/Debug/Assembly-CSharp.dll
 /Users/jordan/Unity/3DBarGraph/obj/Debug/Assembly-CSharp.pdb
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/Mono.Data.SqliteClient.dll
+/Users/jordan/Unity/3DBarGraph/Temp/bin/Debug/System.Data.dll

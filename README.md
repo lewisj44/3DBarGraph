@@ -7,8 +7,9 @@ Procedurally-generated 3D Bar Graph connected to SQLite3 database. The graph can
 * Use base of graph to rotate around the y-axis. Use handles to rotate in x and z axis.
 * Bar values can be adjusted via click-and-drag. 
 * Hold shift or shift+ctrl (shift+cmd on Mac) to change precision.
-* Use L-Key to unlock/lock bar movement. Bars are locked at start;
-* Use R-Key to unlock/lock graph rotation. Graph is locked at start;
+* Pres M-Key to unlock/lock bar movement. Bars movement is LOCKED at start.
+* Press L-Key to unlock/lock graph rotation. Graph rotation is UNLOCKED at start.
+* Hold R-Key to reset graph rotation to (0, 0, 0)
 
 ## Notes
 

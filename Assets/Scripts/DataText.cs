@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class DataText : MonoBehaviour
 {
     public TextMesh dataText;
-    public Camera mainCamera;
+    public GameObject mainCamera;
 
     private float paddingHeight = 1;
     private GameObject cube;
@@ -19,7 +19,7 @@ public class DataText : MonoBehaviour
     {
         textPosition = Vector3.zero;
         dataText = GetComponentInChildren<TextMesh>();
-        mainCamera = Camera.main;
+        mainCamera = GameObject.Find("[VRTK_SDKManager]/SDKSetups/Simulator/VRSimulatorCameraRig");
 
     }
 
@@ -51,10 +51,10 @@ public class DataText : MonoBehaviour
         dataText.text = ""  + (cube.GetComponent<DragBar>().Value)
                             + "\n " + cube.GetComponent<DragBar>().Year + ", " + cube.GetComponent<DragBar>().Quarter;
                           
-        if ((cube.transform.lossyScale.y < 0 && paddingHeight > 0) || (cube.transform.lossyScale.y > 0 && paddingHeight < 0)) paddingHeight = -paddingHeight;
+        if ((cube.transform.localScale.y < 0 && paddingHeight > 0) || (cube.transform.localScale.y > 0 && paddingHeight < 0)) paddingHeight = -paddingHeight;
         //Update position
         textPosition.x = cube.transform.localPosition.x;
-        textPosition.y = cube.transform.lossyScale.y + paddingHeight;
+        textPosition.y = cube.transform.localScale.y + paddingHeight;
         textPosition.z = cube.transform.parent.transform.localPosition.z;
         transform.localPosition = textPosition;
 
@@ -63,7 +63,11 @@ public class DataText : MonoBehaviour
         transform.localRotation = newRotation;
 
         //Rotate text to face main camera
-        cameraRotation.y = mainCamera.transform.rotation.y;
-        transform.rotation = new Quaternion(0f, cameraRotation.y, 0f, 1f); 
+        //cameraRotation.y = mainCamera.transform.rotation.y;
+        //Debug.Log(cameraRotation.y);
+        //transform.rotation = new Quaternion(0f, cameraRotation.y, 0f, 1f);
+        transform.rotation = Quaternion.LookRotation(transform.position - mainCamera.transform.position);
+        //transform.rotation = new Quaternion(transform.rotation.x, transform.rotation.y + 180f, transform.rotation.z, 1f);
+
     }
 }

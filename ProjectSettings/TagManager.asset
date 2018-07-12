@@ -14,6 +14,15 @@ TagManager:
   - Graph
   - Undefined
   - Cube
+  - XAx
+  - ZAx
+  - TeleportIgnore
+  - Base
+  - Database
+  - DB1
+  - DB2
+  - DB3
+  - DB4
   layers:
   - Default
   - TransparentFX

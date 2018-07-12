@@ -20,8 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4948757974941718}
   - component: {fileID: 114321832823094334}
-  - component: {fileID: 114273272526152542}
   - component: {fileID: 114579565425879728}
+  - component: {fileID: 114494783095535586}
   m_Layer: 0
   m_Name: Graph
   m_TagString: Graph
@@ -42,17 +42,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114273272526152542
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1539826267582948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3aa11b30270a84bd7a0e180b81949a74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114321832823094334
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -64,8 +53,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33eec6e4fe0dc4f939d9b455b58c72df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 0.1
+  sensitivity: 1
   axis: 0
+  flipped: 0
+--- !u!114 &114494783095535586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1539826267582948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1b75699fb3c44e4eb1729ff4d50bd55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dbName: testData1
+  startYear: 2015
+  endYear: 2018
 --- !u!114 &114579565425879728
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -77,14 +81,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0304c841372c64732a67bbe53f7da9d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rows: 10
-  columns: 10
+  rows: 0
+  columns: 0
+  scaleFactor: 0.5
+  dragSensitivity: 3
+  rotateSensitivity: 1
   _cube: {fileID: 1371643594766352, guid: 202c6d9088bdd4895be7efae206c4819, type: 2}
   _base: {fileID: 1489366054044234, guid: 4bb620793fb9a4ae39df99dc805c0c6e, type: 2}
   _dataText: {fileID: 1916462467884326, guid: 9d916600375d2480d8a439bec615075f, type: 2}
   _xRotator: {fileID: 1160519114519402, guid: e41a6d1130dfd42fd890a9c8e0274d0f, type: 2}
   _zRotator: {fileID: 1815886472203570, guid: 71a6e102c60ca48e0b58adffbff3218f, type: 2}
+  _labelCanvas: {fileID: 1461618788198826, guid: de0bbf3aa700244f5ba2e722e31c01f6,
+    type: 2}
+  _label: {fileID: 1313785781780918, guid: d366851b2c3e848199f7f27f85a256e6, type: 2}
   colors:
+  - {fileID: 2100000, guid: 7ffc1f9ac633b481da8aacd34b8ed4b9, type: 2}
   - {fileID: 2100000, guid: 2957a676c0aa34885a25d918e9a33eb1, type: 2}
   - {fileID: 2100000, guid: b9eccdc3ac42c4ab9b2e1445b46397be, type: 2}
-  - {fileID: 2100000, guid: 7ffc1f9ac633b481da8aacd34b8ed4b9, type: 2}
+  - {fileID: 2100000, guid: c54588029544e46358a177d364e78a25, type: 2}
+  - {fileID: 2100000, guid: 785f9cba38df348ef95289157b39f87e, type: 2}
+  - {fileID: 2100000, guid: 26392af0212a44ff19bdd80bf0f7ffde, type: 2}

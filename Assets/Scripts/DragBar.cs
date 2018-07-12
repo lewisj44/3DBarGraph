@@ -31,14 +31,15 @@ public class DragBar : MonoBehaviour
     {
         database = transform.root.GetComponent<DBConnection>();
         manager = transform.root.GetComponent<GraphManager>();
-        sensitivity = 0.5f;
         movement = Vector3.zero;
+        minReached = false;
+        maxReached = false;
     }
 
     private void Update()
     {
         
-        if(Input.GetKeyDown(KeyCode.L)) isLocked = !isLocked;
+        if(Input.GetKeyDown(KeyCode.M)) isLocked = !isLocked;
         isShiftDown = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
         isCtrlDown = (Input.GetKey(KeyCode.LeftApple) || Input.GetKey(KeyCode.RightApple)) || (Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl));
         if(isShiftDown)
@@ -49,23 +50,45 @@ public class DragBar : MonoBehaviour
         else _sensitivity = sensitivity;
         if (isDragged && !isLocked)
         {
+            manager.StopAllCoroutines();
             //mouseOffset = Input.mousePosition - mouseReference;
             movement.y = Input.GetAxis("Mouse Y") * _sensitivity;
             transform.localScale += movement;
-            transform.localPosition =  new Vector3(transform.localPosition.x, transform.localScale.y / 2.00f, transform.localPosition.z);
-            //mouseReference = Input.mousePosition;
-            maxReached = Mathf.Abs(transform.localScale.y) >= 10f;
-            manager.data[X][Z] = Utility.Truncate(transform.localScale.y * 10.00f, 2);
-            database.UpdateSale(X, Z, manager.data[X][Z]);
-        }
-        if(maxReached)
-        {
-            _sensitivity = 0;
-            transform.localScale = transform.localScale.y > 0 ? new Vector3(1f, 10.00f, 1f) : new Vector3(1f, -10.00f, 1f);
             transform.localPosition = new Vector3(transform.localPosition.x, transform.localScale.y / 2.00f, transform.localPosition.z);
-            maxReached = false;
+            //mouseReference = Input.mousePosition;
+            maxReached = transform.localScale.y >= 10f;
+            minReached = transform.localScale.y <= 0.1f;
+            if (maxReached)
+            {
+                _sensitivity = 0;
+                transform.localScale = new Vector3(transform.localScale.x, 10.00f, transform.localScale.z);
+                transform.localPosition = new Vector3(transform.localPosition.x, transform.localScale.y / 2.00f, transform.localPosition.z);
+                Value = 100f;
+                manager.data[X][Z] = Value;
+                maxReached = false;
+            }
+
+            if (minReached)
+            {
+                _sensitivity = 0;
+                transform.localScale = new Vector3(transform.localScale.x, 0.01f, transform.localScale.z);
+                transform.localPosition = new Vector3(transform.localPosition.x, transform.localScale.y / 2.00f, transform.localPosition.z);
+                Value = 0f;
+                manager.data[X][Z] = Value;
+                database.UpdateSale(X, Z, Value);
+                minReached = false;
+            }
+            else
+            {
+                Value = Utility.Truncate(transform.localScale.y * 10.00f, 2);
+                manager.data[X][Z] = Value;
+            }
+
+            database.UpdateSale(X, Z, Value);
+
         }
-        Value = manager.data[X][Z];
+
+       
     }
 
     private void OnMouseDown()
