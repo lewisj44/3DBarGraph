@@ -1,16 +1,17 @@
 ﻿<Properties StartupConfiguration="{59398FFF-8E9A-37DF-7FA6-77A466FA8D47}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DBSwitcher.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/VRTK/Scripts/Internal/VRTK_Logger.cs">
     <Files>
-      <File FileName="Assets/Scripts/GraphManager.cs" Line="325" Column="50" />
-      <File FileName="Assets/Scripts/Rotator.cs" Line="77" Column="6" />
+      <File FileName="Assets/Scripts/GraphManager.cs" Line="293" Column="6" />
+      <File FileName="Assets/Scripts/Rotator.cs" Line="78" Column="2" />
       <File FileName="Assets/Scripts/DragBar.cs" Line="74" Column="80" />
       <File FileName="Assets/Scripts/DataText.cs" Line="57" Column="51" />
       <File FileName="Assets/Scripts/DBConnection.cs" Line="17" Column="27" />
       <File FileName="Assets/Scripts/LabelText.cs" Line="28" Column="106" />
       <File FileName="Assets/Scripts/Utility.cs" Line="15" Column="1" />
-      <File FileName="Assets/VRTK/Scripts/Utilities/SDK/VRTK_SDKManager.cs" Line="351" Column="1" />
-      <File FileName="Assets/DBSwitcher.cs" Line="7" Column="2" />
+      <File FileName="Assets/DBSwitcher.cs" Line="23" Column="9" />
+      <File FileName="Assets/AdjustPlatform.cs" Line="37" Column="61" />
+      <File FileName="Assets/VRTK/Scripts/Internal/VRTK_Logger.cs" Line="167" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

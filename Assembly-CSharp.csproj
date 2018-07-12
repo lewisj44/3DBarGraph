@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AdjustPlatform.cs" />
     <Compile Include="Assets\DBSwitcher.cs" />
     <Compile Include="Assets\Scripts\DatabaseNum.cs" />
     <Compile Include="Assets\Scripts\DataText.cs" />

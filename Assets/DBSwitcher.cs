@@ -9,7 +9,8 @@ public class DBSwitcher : MonoBehaviour
     public GameObject snappedObject;
     public GraphManager manager;
 
-    private bool loaded;
+    private readonly string[] tags = { "DB1", "DB2", "DB3", "DB4" };
+
     // Use this for initialization
     void Start()
     {
@@ -17,24 +18,13 @@ public class DBSwitcher : MonoBehaviour
         manager = GameObject.Find("Graph").GetComponent<GraphManager>();
 
     }
+
 	private void Update()
 	{
         snappedObject = dropZone.GetCurrentSnappedObject();
         if (snappedObject == null && GameObject.Find("Graph/Floor") != null) manager.Delete();
-
+        if (snappedObject != null && GameObject.Find("Graph/Floor") == null) manager.LoadGraph("testData" + snappedObject.GetComponent<DatabaseNum>().databaseNum);
 	}
 
-
-    private void OnTriggerExit()
-    {
-        if (GameObject.Find("Graph/Floor") == null && snappedObject != null)
-        {
-            manager.LoadGraph("testData" + snappedObject.GetComponent<DatabaseNum>().databaseNum); 
-        }
-       
-       
-
-    }
-
-
+   
 }

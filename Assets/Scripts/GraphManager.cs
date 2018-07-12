@@ -79,7 +79,7 @@ public class GraphManager : MonoBehaviour
 
                 float yScale = bar.GetComponent<DragBar>().Value/10f;
                 Vector3 targetScale = new Vector3(0.75f, yScale, 0.75f);
-                Vector3 currentScale = new Vector3(0.75f, transform.localScale.y, 0.75f);
+                Vector3 currentScale = new Vector3(0.75f, bar.transform.localScale.y, 0.75f);
                 //Add bar to array
                 graph[colIndex][rowIndex] = bar;
                 data[colIndex][rowIndex] = bar.GetComponent<DragBar>().Value;
@@ -88,7 +88,7 @@ public class GraphManager : MonoBehaviour
                 //bar.transform.localScale = targetScale;
                 //Position bar in x-axis. Z positon is set by parent Row object
                 //bar.transform.localPosition = new Vector3(x + xOffset, yScale / 2.00f, 0f);
-                StartCoroutine(LoadBarData(bar, currentScale, targetScale, x));
+                if(bar != null)StartCoroutine(LoadBarData(bar, currentScale, targetScale, x));
 
 
 
@@ -282,12 +282,14 @@ public class GraphManager : MonoBehaviour
     {
         while (!barLoaded)
         {
-           
-            curScale.y = Mathf.Lerp(curScale.y, targetScale.y, Time.deltaTime);
-            bar.transform.localScale = curScale;
-            //Position bar in x-axis. Z positon is set by parent Row object
-            bar.transform.localPosition = new Vector3(xPos + xOffset, curScale.y / 2.00f, 0f);
-            barLoaded = (curScale.Equals(targetScale));
+            if (bar != null)
+            {
+                curScale.y = Mathf.Lerp(curScale.y, targetScale.y, Time.deltaTime);
+                bar.transform.localScale = curScale;
+                //Position bar in x-axis. Z positon is set by parent Row object
+                bar.transform.localPosition = new Vector3(xPos + xOffset, curScale.y / 2.00f, 0f);
+                barLoaded = (curScale.Equals(targetScale));
+            }
             yield return null;
         }
     }

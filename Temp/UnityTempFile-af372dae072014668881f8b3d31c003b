@@ -191,6 +191,7 @@
 -define:VRTK_VERSION_3_2_1_OR_NEWER
 -define:VRTK_VERSION_3_1_0_OR_NEWER
 -define:VRTK_VERSION_3_2_0_OR_NEWER
+'Assets/AdjustPlatform.cs'
 'Assets/DBSwitcher.cs'
 'Assets/Scripts/DatabaseNum.cs'
 'Assets/Scripts/DataText.cs'
@@ -201,6 +202,7 @@
 'Assets/Scripts/LabelText.cs'
 'Assets/Scripts/LineManager.cs'
 'Assets/Scripts/Rotator.cs'
+'Assets/Scripts/SphereRotator.cs'
 'Assets/Scripts/Utility.cs'
 'Assets/VRTK/Examples/ExampleResources/Scripts/Archery/Arrow.cs'
 'Assets/VRTK/Examples/ExampleResources/Scripts/Archery/ArrowNotch.cs'
